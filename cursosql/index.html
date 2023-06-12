@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+      <meta charset="UFT-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <tittle>Formulario php</tittle>
+      <link href="estilos.css" rel="stylesheet" type="text/css">
+     
+    </head>
+    <body>
+            <from method="POST" action="formulario.php">
+            <div class="group">
+            <h2><em>Formulario clientes</em></h2>
+           
+            <label for="nombre">Nombre<span><em>(Necesario)</em></span></label>
+            <input id="nombre" name="Nombre" type="text" class="form-input" required />
+
+
+            <label for="apellidos">Apellidos<span><em>(Necesario)</em></span></label>
+            <input id="apellidos" name="Apellidos" type="text" class="form-input" required />
+
+
+            <label for="email">Email<span><em>(Necesario)</em></span></label>
+            <input id="email" name="Email" type="text" class="form-input" required />
+            
+             <input class="form-btn" name="submit" type="submit" value="suscribirse" />
+        
+      </div>
+      </from>
+        <script scr="index.js"></script>
+    </body>
+</html>
